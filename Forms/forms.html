@@ -57,5 +57,49 @@
       <button>Submit</button>
       <input type="submit" />
     </form>
+    <!-- RadioButtons / CheckBox / Select-->
+    <h1>Radio / Checkbox / Select</h1>
+    <form action="">
+      <input type="checkbox" name="terms" id="idTerms" value="Accept"/>
+      <label for="idTerms">I accept</label>
+      <p>
+        <h2>Shirt Sizes</h2>
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="M"/>
+        <label for="l">L</label>
+        <input type="radio" name="size" id="l" value="L"/>
+        <label for="xl">XL</label>
+        <input type="radio" name="size" id="xl" value="XL"/>
+      </p>
+      <p>
+        <label for="IDmeal">Plaese Select Your Meal</label>
+        <select name="Meal" id="IDmeal">
+          <option value="">-------SELECT YOUR MEAL-------</option>
+          <option value="fish">Fish</option>
+          <option value="veg">Vegetarian</option>
+          <option value="steak">Steak</option>
+        </select>
+      </p>
+      
+
+      <h2>Range</h2>
+      <p>
+        <label for="cheese">Amount of Cheese:</label>
+        <input type="range" id="cheese" min="1" max="100" value="75" name="cheese_level">
+    </p>
+    <p>
+      <label>
+        Enter a Number:
+        <input type="number" placeholder="enter a number" name="num" min="1" max="1000">
+    </label>
+    </p>
+    <p>
+      <h2>Text Area</h2>
+      <label for="requests">Any Special Requests?</label>
+      <br>
+      <textarea id="requests" rows="10" cols="40" name="Requests?" placeholder="Type something here"></textarea>
+  </p>
+    <button>Submit</button>
+    </form>
   </body>
 </html>
